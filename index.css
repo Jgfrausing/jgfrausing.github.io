@@ -136,7 +136,7 @@ body {
 }
 
 /* media query */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 200px) {
   
   .grid-1 {
     grid-template-columns: repeat(6, 1fr);
