@@ -1,6 +1,5 @@
 
-day = new Date().getDate()-20
-
+day = new Date().getDate()-10
 window.addEventListener('load', function () {
    open()
 })
@@ -8,8 +7,14 @@ window.addEventListener('load', function () {
 
 function open(d) {
     var eles = document.getElementsByTagName('input');
-    for (i = 0; i < day; i++) {
-        eles.item(i).checked = true;
+    for (i = 0; i < eles.length; i++) {
+        if (i < day) {
+            eles.item(i).checked = true;
+        } else if (i = day) {
+            //today
+        } else {
+            eles.item(i).disabled = true;
+        }
     }    
 }
 
