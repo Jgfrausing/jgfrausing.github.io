@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8" />
 <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="modal.css">
 <script src="index.js"></script>
 </head>
 <body>
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="modal-inner"></div>
+  </div>
+
+</div>
 <div class='support-grid'></div>
 <section class='grid-1'>
   <div class='title'>
-    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/merry-xmas.svg'>
+    <img src='odts_vfxv_211021-removebg-preview.png'>
   </div>
   <div class='day-1'>
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>1</div>
+          <div class='front' onclick="clicked('d1')">1</div>
           <div class='back'></div>
         </div>
       </input>
@@ -24,7 +35,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>2</div>
+          <div class='front' onclick="clicked('d2')">2</div>
           <div class='back'></div>
         </div>
       </input>
@@ -34,7 +45,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>3</div>
+          <div class='front' onclick="clicked('d3')">3</div>
           <div class='back'></div>
         </div>
       </input>
@@ -44,7 +55,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>4</div>
+          <div class='front' onclick="clicked('d4')">4</div>
           <div class='back'></div>
         </div>
       </input>
@@ -54,7 +65,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>5</div>
+          <div class='front' onclick="clicked('d5')">5</div>
           <div class='back'></div>
         </div>
       </input>
@@ -64,7 +75,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>6</div>
+          <div class='front' onclick="clicked('d6')">6</div>
           <div class='back'></div>
         </div>
       </input>
@@ -74,7 +85,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>7</div>
+          <div class='front' onclick="clicked('d7')">7</div>
           <div class='back'></div>
         </div>
       </input>
@@ -84,7 +95,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>8</div>
+          <div class='front' onclick="clicked('d8')">8</div>
           <div class='back'></div>
         </div>
       </input>
@@ -94,7 +105,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>9</div>
+          <div class='front' onclick="clicked('d9')">9</div>
           <div class='back'></div>
         </div>
       </input>
@@ -104,7 +115,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>10</div>
+          <div class='front' onclick="clicked('d10')">10</div>
           <div class='back'></div>
         </div>
       </input>
@@ -114,7 +125,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>11</div>
+          <div class='front' onclick="clicked('d11')">11</div>
           <div class='back'></div>
         </div>
       </input>
@@ -124,7 +135,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>12</div>
+          <div class='front' onclick="clicked('d12')">12</div>
           <div class='back'></div>
         </div>
       </input>
@@ -134,7 +145,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>13</div>
+          <div class='front' onclick="clicked('d13')">13</div>
           <div class='back'></div>
         </div>
       </input>
@@ -144,7 +155,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>14</div>
+          <div class='front' onclick="clicked('d14')">14</div>
           <div class='back'></div>
         </div>
       </input>
@@ -154,7 +165,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>15</div>
+          <div class='front' onclick="clicked('d15')">15</div>
           <div class='back'></div>
         </div>
       </input>
@@ -164,7 +175,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>16</div>
+          <div class='front' onclick="clicked('d16')">16</div>
           <div class='back'></div>
         </div>
       </input>
@@ -174,7 +185,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>17</div>
+          <div class='front' onclick="clicked('d17')">17</div>
           <div class='back'></div>
         </div>
       </input>
@@ -184,7 +195,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>18</div>
+          <div class='front' onclick="clicked('d18')">18</div>
           <div class='back'></div>
         </div>
       </input>
@@ -194,7 +205,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>19</div>
+          <div class='front' onclick="clicked('d19')">19</div>
           <div class='back'></div>
         </div>
       </input>
@@ -204,7 +215,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>20</div>
+          <div class='front' onclick="clicked('d20')">20</div>
           <div class='back'></div>
         </div>
       </input>
@@ -214,7 +225,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>21</div>
+          <div class='front' onclick="clicked('d21')">21</div>
           <div class='back'></div>
         </div>
       </input>
@@ -224,7 +235,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>22</div>
+          <div class='front' onclick="clicked('d22')">22</div>
           <div class='back'></div>
         </div>
       </input>
@@ -234,7 +245,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>23</div>
+          <div class='front' onclick="clicked('d23')">23</div>
           <div class='back'></div>
         </div>
       </input>
@@ -244,7 +255,7 @@
     <label>
       <input type='checkbox'>
         <div class='door'>
-          <div class='front'>24</div>
+          <div class='front' onclick="clicked('d24')">24</div>
           <div class='back'></div>
         </div>
       </input>

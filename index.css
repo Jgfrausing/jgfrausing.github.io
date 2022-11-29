@@ -348,7 +348,7 @@ label {
       transform: rotateY(180deg);
   }
 
-  label:hover .door {
+  .door {
     border-color: #385052;
   }
 
