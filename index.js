@@ -1,5 +1,8 @@
 
 day = new Date().getDate()-1
+if (new Date().getMonth() != 11) {
+    day = -1
+}
 window.addEventListener('load', function () {
    open()
    enableModal()
