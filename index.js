@@ -13,7 +13,7 @@ function open() {
     var eles = document.getElementsByTagName('input');
     for (i = 0; i < eles.length; i++) {
         if (i < day) {
-            // eles.item(i).checked = true;
+            eles.item(i).checked = true;
         } else if (i == day) {
             //today
         } else {
