@@ -1,5 +1,6 @@
 
 day = new Date().getDate()-1
+console.log(day)
 if (new Date().getMonth() != 11) {
     day = -1
 }
@@ -64,7 +65,7 @@ window.onclick = function(event) {
   
 
 var dict = {};
-dict['d1'] = text([
+dict['d1'] = content([
         tag("h1", "Glædelig jul, min skat"),
         tag("p", "Jeg har lavet en lille julekalender til dig, som jeg håber du bliver glad for. I dag er det første, jeg vil give dig, et lille Haiku."), 
         span("Julekalender"),
@@ -73,9 +74,14 @@ dict['d1'] = text([
         tag("p", "Ja, det var alt det kunne blive til i dag, men det gælder om ikke at sætte standarden for højt til at starte med. I love you more."),
     ])
 
-// dict['d2'] = text("some")
+dict['d2'] = content([
+    tag("h1", "Så blev det endelig d. 2. December"),
+    span("2. december er nemlig den officielle G***** dag."),
+    tag("p", "I love you. <3"),
+    img("d2.jpeg")
+])
 
-function text(elems) {
+function content(elems) {
     res = '<div id="modal-inner">'
     for (i = 0; i < elems.length; i++) {
         res+= elems[i]
@@ -90,4 +96,9 @@ function tag(t, val) {
 
 function span(val) {
     return tag("span", val + "<br/>")
+}
+
+
+function img(url) {
+    return '<img src="' + url + '">'
 }

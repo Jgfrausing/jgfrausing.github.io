@@ -109,7 +109,7 @@ body {
 }
 
 .title img {
-  width: 30%;
+  width: 50%;
   height: auto;
 }
 
@@ -124,7 +124,7 @@ body {
   grid-template-rows: auto;
   grid-gap: 25px;
   
-  grid-template-areas:    "t        t       t"
+  grid-template-areas:      "t        t       t"
                           "d23      d20     d12"
                           "d2       d14     d4"
                           "d5       d22     d16"
