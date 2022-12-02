@@ -66,19 +66,27 @@ window.onclick = function(event) {
 
 var dict = {};
 dict['d1'] = content([
-        tag("h1", "Glædelig jul, min skat"),
-        tag("p", "Jeg har lavet en lille julekalender til dig, som jeg håber du bliver glad for. I dag er det første, jeg vil give dig, et lille Haiku."), 
-        span("Julekalender"),
-        span("Til dig, Haiku er ikke nok"),
-        span("I morgen, bedre"),
-        tag("p", "Ja, det var alt det kunne blive til i dag, men det gælder om ikke at sætte standarden for højt til at starte med. I love you more."),
-    ])
+    tag("h1", "Glædelig jul, min skat"),
+    tag("p", "Jeg har lavet en lille julekalender til dig, som jeg håber du bliver glad for. I dag er det første, jeg vil give dig, et lille Haiku."), 
+    span("Julekalender"),
+    span("Til dig, Haiku er ikke nok"),
+    span("I morgen, bedre"),
+    tag("p", "Ja, det var alt det kunne blive til i dag, men det gælder om ikke at sætte standarden for højt til at starte med. I love you more."),
+])
 
 dict['d2'] = content([
     tag("h1", "Så blev det endelig d. 2. December"),
     span("2. december er nemlig den officielle G***** dag."),
     tag("p", "I love you. <3"),
     img("d2.jpeg")
+])
+
+dict['d3'] = content([
+    tag("h1", "Shhh.. 🤫"),
+    tag("p", "Find mig!"),
+    span("Hvad kalder man en din ynglings italienske ost?"),
+    span("Gøjgonzola"),
+    img("d3.jpeg")
 ])
 
 function content(elems) {
@@ -88,7 +96,7 @@ function content(elems) {
     }
     res += '</div>'
     return res
-} 
+}
 
 function tag(t, val) {
     return '<' + t + '>' + val + '<' + t + '>'
