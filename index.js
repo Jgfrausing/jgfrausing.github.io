@@ -90,6 +90,15 @@ dict['d3'] = content([
     img("d3.jpeg")
 ])
 
+dict['d4'] = content([
+    tag("h1", "Så blev det 2. advent"),
+    tag("p", "Jeg sagde jo, at det ikke skulle være så nemt. Så I dag får du en gåde i stedet for et billede."),
+    span("Følgende er både lokationen og en beskrivelse af mig:"),
+    span("\"Når alt bliver sort, så kom til mig.\""),
+    span("Hvad og hvor er jeg?"),
+    tag("p", "♥️ P.S. Du er min drømme pige. ♥️")
+])
+
 function content(elems) {
     res = '<div id="modal-inner">'
     for (i = 0; i < elems.length; i++) {
