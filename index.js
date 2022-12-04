@@ -1,6 +1,5 @@
 
 day = new Date().getDate()-1
-day = 2
 console.log(day)
 if (new Date().getMonth() != 11) {
     day = -1
