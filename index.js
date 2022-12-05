@@ -98,6 +98,13 @@ dict['d4'] = content([
     tag("p", "♥️ P.S. Du er min drømme pige. ♥️")
 ])
 
+dict['d5'] = content([
+    tag("h1", "Monday means movie"),
+    span("I dag, får du en \"I can choose the movie\" billet"),
+    span("Det betyder, at du må vælge en film i aften, som jeg ikke kan sige nej til"),
+    tag("p", "Get those popcorns 🍿🍿")
+])
+
 function content(elems) {
     res = '<div id="modal-inner">'
     for (i = 0; i < elems.length; i++) {
