@@ -105,6 +105,12 @@ dict['d5'] = content([
     tag("p", "Get those popcorns 🍿🍿")
 ])
 
+dict['d6'] = content([
+    tag("h1", "At glæde sig, er den halve gave"),
+    span("Du kan se frem til en weekend uden bleskift"),
+    span("Farmand klare alle bleskift fra han kommer hjem fra arbejde fredag til han tager afsted mandag."),
+    tag("p", "Julen er jo glædernes tid")
+])
 function content(elems) {
     res = '<div id="modal-inner">'
     for (i = 0; i < elems.length; i++) {
