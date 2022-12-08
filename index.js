@@ -117,6 +117,12 @@ dict['d7'] = content([
     span("Måske du kunne starte med at lavet ham en kop kaffe?"),
     tag("p", "Jeg elsker dig, Gøj")
 ])
+dict['d8'] = content([
+    tag("h1", "Haiku torsdag."),
+     span("Far, mor og Ozzy"),
+     span("Idyl, lykke og hygge"),
+     span("Alt det jeg elsker")
+ ])
 function content(elems) {
     res = '<div id="modal-inner">'
     for (i = 0; i < elems.length; i++) {
