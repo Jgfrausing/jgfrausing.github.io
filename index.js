@@ -123,12 +123,19 @@ dict['d8'] = content([
      span("Idyl, lykke og hygge"),
      span("Alt det jeg elsker")
  ])
+
  dict['d9'] = content([
     tag("h1", "Ventetiden i julen er altid lang"),
      span("Hvis du kunne spole tiden frem til jul, ville du så gøre det?"),
      span("Jeg synes det er svært at vente."),
      span("Ak ak ak, i dag skal du have ***"),
      span("Jeg gemmer mig i kulden")
+ ])
+ dict['d10'] = content([
+    tag("h1", "Godmorgen future-wife"),
+     span("Æg æg æg, mit navn det står med emhætter"),
+     span("Pas på du ikke gætter (hvor jeg er)"),
+     tag("p", "p.s. du har en god røv")
  ])
  
 function content(elems) {
