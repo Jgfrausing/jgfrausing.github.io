@@ -123,6 +123,14 @@ dict['d8'] = content([
      span("Idyl, lykke og hygge"),
      span("Alt det jeg elsker")
  ])
+ dict['d9'] = content([
+    tag("h1", "Ventetiden i julen er altid lang"),
+     span("Hvis du kunne spole tiden frem til jul, ville du så gøre det?"),
+     span("Jeg synes det er svært at vente."),
+     span("Ak ak ak, i dag skal du have ***"),
+     span("Jeg gemmer mig i kulden")
+ ])
+ 
 function content(elems) {
     res = '<div id="modal-inner">'
     for (i = 0; i < elems.length; i++) {
