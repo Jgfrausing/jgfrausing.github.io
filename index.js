@@ -137,6 +137,13 @@ dict['d8'] = content([
      span("Pas på du ikke gætter (hvor jeg er)"),
      tag("p", "p.s. du har en god røv")
  ])
+
+ dict['d11'] = content([
+    tag("h1", "Godmorgen Snack"),
+     span("I dag skal du prøve noget, som du ikke har prøvet før"),
+     span("BUNGYJUMP!!"),
+     tag("p", "Ej, det er gas. Se om du kan finde mig. Jeg er gået i baren.")
+ ])
  
 function content(elems) {
     res = '<div id="modal-inner">'
