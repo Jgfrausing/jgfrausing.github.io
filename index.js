@@ -145,13 +145,18 @@ dict['d8'] = content([
      tag("p", "Ej, det er gas. Se om du kan finde mig. Jeg er gået i baren.")
  ])
 
- dict['d12'] = content([
-    tag("h1", "Glædelig julemandag"),
-     span("Tak for en dejlig weekend, skat. Jeg har virkelig hygget mig."),
-     span("I dag skal du på en lille skattejagt:"),
-     tag("p", "Sure, små, vemmelige, Verner P pølser"),
-     tag("p", "Held og lykke. Jeg elsker dig. ♥ ♥ ♥ ️") 
+ dict['d13'] = content([
+     span("Her ved vor ønskefest"),
+     span("sangen skal klinge"),
+     span("gaver til hver en gæst"),
+     span("gemt her i skuffen"),
+     span("Skænk os af lykkens væld"),
+     span("lige til livets kvæld"),
+     span("Santa Lucia, Santa Lucia"),
+     tag("p", "tekst og melodi: Jonatan"),
+     img("d13.jpeg")
  ])
+
  
 function content(elems) {
     res = '<div id="modal-inner">'
