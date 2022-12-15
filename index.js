@@ -157,10 +157,35 @@ dict['d8'] = content([
      img("d13.jpeg")
  ])
  dict['d14'] = content([
-    tag("I aften skal vi have..."),
+    span("I aften skal vi have..."),
     '<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="788.54" height="443" type="text/html" src="https://www.youtube.com/embed/toZW65rksYY?autoplay=1&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"></iframe>'
  ])
 
+
+ dict['d15'] = content([
+span("A chocolate egg so sweet and fine"),
+span("Is hidden deep inside this guitar of mine"),
+span("Its creamy center, rich and bold"),
+span("A treasure to behold, I am told"),
+"<br/>",
+span("With every strum and every pluck"),
+span("The egg is shaken, but it stays tucked"),
+span("In its cozy nook, safe and sound"),
+span("Until the right moment can be found"),
+"<br/>",
+span("To break its shell and taste its prize"),
+span("A moment of pure, chocolatey bliss"),
+span("A symphony of flavor and delight"),
+span("A treat to savor, morning, noon, and night"),
+"<br/>",
+span("So if you see a guitar that's worn and old"),
+span("Don't be fooled, it may hold a treasure to behold"),
+span("A chocolate egg, a delicious surprise"),
+span("A tasty treat that will open your eyes"),
+"<br/>",
+span("To the joys that music and chocolate can bring"),
+span("A harmony of flavor and melody, a delicious symphony."),
+]) 
  
 function content(elems) {
     res = '<div id="modal-inner">'
