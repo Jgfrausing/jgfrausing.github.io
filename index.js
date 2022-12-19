@@ -186,6 +186,14 @@ span("A tasty treat that will open your eyes"),
 span("To the joys that music and chocolate can bring"),
 span("A harmony of flavor and melody, a delicious symphony."),
 ]) 
+
+dict['d19'] = content([
+    tag('h1', 'Godmorgen, skat'),
+    span('Jeg har endelig fundet nissen. Han sad sad og varmede vandrøret til køkkenvasken, så vi kunne få varmt vand'),
+    span('Jeg har bedt ham om at priotere din julekalender frem for det varme vand - selvom det var sødt af ham'),
+    tag('p', 'So without further ado:'),
+    span('Hvad er det man gør to gange om dagen?'),
+])
  
 function content(elems) {
     res = '<div id="modal-inner">'
