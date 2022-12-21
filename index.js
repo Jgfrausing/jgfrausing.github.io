@@ -195,6 +195,15 @@ dict['d19'] = content([
     span('Hvad er det man gør to gange om dagen?'),
 ])
  
+
+dict['d21'] = content([
+    tag('h1', 'Glædelig Vintersolhverv'),
+    span('Kan du forstille dig, at Joakim Mæhle brænder en oplagt chance?'),
+    span('Så kan man godt komme til at sige DUM MÆHLE'),
+    span('Utroligt, at en karmel er opkaldet efter det')
+])
+ 
+
 function content(elems) {
     res = '<div id="modal-inner">'
     for (i = 0; i < elems.length; i++) {
