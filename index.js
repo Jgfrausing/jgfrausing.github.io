@@ -202,6 +202,17 @@ dict['d21'] = content([
     span('Så kan man godt komme til at sige DUM MÆHLE'),
     span('Utroligt, at en karmel er opkaldet efter det')
 ])
+
+dict['d24'] = content([
+    tag('h1', 'Så blev det endelig jul'),
+    span('Tænk, at vi for et år siden var nyforelsket på Gran Canarie.'),
+    span('Der er sket så meget, at det føles som om 100 år er gået siden.'),
+    span('Størst af dem alle er Ozzy, vores lille gulkulmp.'),
+    span('Jeg kan slet ikke beskrive, hvor meget I to betyder for mig.'),
+    span('Jeg glæder mig til 100 juleaftner med jer.'),
+    tag('p', 'Jeg elsker jer så højt.'),
+    tag('p', 'P.S. Nissen har samlet resterne og gemt dem i en kikkert af pap.')
+])
  
 
 function content(elems) {
